@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Himaank's Indian Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="homepage">
+
+        <div class="navbar">
+            <div class="navbar-items">
+                <img src="logo.png" alt="logo" class="logo">
+                <a href="home.html" target="_blank" class="navbar1">Home</a>
+                <a href="menu.html" target="_blank" class="navbar1">Menu</a>
+                <a href="about-us.html" target="_blank" class="navbar1">About Us</a>
+                <a href="contact.html" target="_blank" class="navbar1">Contact</a>
+                <a href="order-now.html" target="_blank" class="navbar1">Order Now</a>
+                <img src="logo.png" alt="logo" class="logo">
+            </div>
+        </div>
+        <div class="header image">
+            <img src="header.jpg" alt="Biryani" class="header-image">
+        </div>
+        <div id="order-info">
+            <h1 id="location">Order food here:</h1>
+            <div class="order">
+                <p id="phone-info">
+                    <span class="phone-info-order">**ORDER FOOD NOW**:</span>
+                    647-395-2963 <br>
+                    <h3>Or order online:</h3>
+                </p>
+                <form class="order-form">
+                    <label for="name" class="order-label">Please enter your first and last name</label><br>
+                    <input type="text" name="name" class="order-sheet" required placeholder="John Doe"><br>
+                    <label for="email" class="order-label">Please enter your email address</label><br>
+                    <input type="email" name="email" class="order-sheet" required placeholder="johndoe@example.com"><br>
+                    <label for="phonenumber" class="order-label">Please enter your phone number</label><br>
+                    <input type="tel" name="phonenumber" class="order-sheet" required placeholder="+1 647-395-2963"><br>
+                    <label for="home-address" class="order-label">Please enter your address</label><br>
+                    <input type="text" name="home-address" class="order-sheet" required placeholder="123 Indian Street, Brampton"><br>
+                    <label for="credit-card" class="order-label">Please enter your credit card number (We accept Visa and Mastercard)</label><br>
+                    <input type="number" name="credit-card" class="order-sheet" required placeholder="5555555555554444"><br>
+                    <label for="credit-cvv" class="order-label">Please enter your credit card CVV (The 3 numbers on the back)</label><br>
+                    <input type="number" name="credit-cvv" class="order-sheet" required placeholder="397"><br>
+                    <label for="order-items" class="order-label">Please enter your desired order. (add a comma after every item)</label><br>
+                    <textarea name="order-items" class="order-sheet" cols="40" rows="6" placeholder="Chicken Biryani, Samosa, Medu Vada"></textarea><br>
+                    <input type="submit" class="submit-button" required placeholder="Submit"><br>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <a href="menu.html" target="_blank" class="footer-link">Menu</a>
+            <a href="" class="footer-link">About Us</a>
+            <a href="" class="footer-link">Contact</a>
+            <p class="copyright">©Himaank's Indian Cusine 2023</p>
+        </div>
+    </div>
+</body>
+
+</html>
