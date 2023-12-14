@@ -1,0 +1,263 @@
+html{
+ font-size: 16px;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+}
+
+.logo{
+ height: 60px;
+}
+
+.navbar{
+ height: 60px;
+ background-color: #fa9820;
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+.navbar-items{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: fit-content;
+ height: 100%;
+ margin: 0 auto;
+}
+
+.navbar1{
+ text-align: center;
+ line-height: 2;
+ display: inline-block;
+ vertical-align: middle; 
+ color: white;
+ padding: 6px 15px;
+ text-decoration: none;
+ font-size: 1.5rem;
+ transition: background-color 0.15s;
+}
+
+.navbar1:hover{
+ background-color: gray;
+}
+
+.header-image{
+ padding-top: 60px;
+ height: 300px;
+ width: 100%;
+ object-fit: cover;
+ margin-top: 20px;
+}
+
+.Main-text{
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+#title1, #title2{
+ text-align: center;
+ font-size: 2.25rem;
+ margin-top: 30px;
+ border-radius: 3px;
+}
+
+#title2{
+ padding-top: 60px;
+}
+
+#body-header{
+ text-align: center;
+ font-size: 1.75rem;
+}
+
+#body{
+ font-size: 1.25rem;
+}
+
+.footer{
+ margin: 0 auto;
+ text-align: center;
+ background-color: lightgray;
+ position: relative bottom;
+ bottom: 0;
+ width: 100%;
+ margin-top: 45px;
+}
+
+.footer-link{
+ text-align: center;
+ line-height: 2;
+ display: inline-block;
+ vertical-align: middle; 
+ color: black;
+ padding-top: 15px;
+ padding-left: 15px;
+ padding-right: 15px;
+ text-decoration: none;
+ font-size: 1rem;
+}
+
+.copyright{
+ padding-bottom: 30px;
+ font-size: 0.75rem;
+ color: black;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-content{
+    width: 50%;
+    display: inline-block;
+}
+
+.menu-description h1{
+ padding-top: 60px;
+ text-align: center;
+ font-size: 2.5rem;
+}
+
+.menu-description p{
+ text-align: center;
+ font-size: 1.3rem;
+}
+
+.appetizer-menu{
+ max-width: 800px;
+}
+
+.menu-header{
+ max-width: 600px;
+ text-align: center;
+ font-size: 1.6rem;
+ margin-top: 50px;
+}
+
+table{
+ border-collapse: collapse;
+ width: 600px;
+}
+
+th{
+ font-size: 1.25rem;
+}
+
+th, td {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+
+th:nth-child(2), td:nth-child(2) {
+ width: 150px;
+ text-align: center;
+}
+
+#Kulfi{
+ line-height: 20px;
+}
+
+.food-images{
+    margin-top: 95px;
+    width: 50%;
+    float: right;
+}
+
+.food-img{
+    margin: 25px 100px;
+    height: 250px;
+    width: auto;
+}
+
+#order-button{
+    text-align: center;
+    margin: 50px;
+}
+
+.order-button{
+    padding: 40px 70px;
+    font-size: 25px;
+    background-color: #fa9820;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.order-button:hover{
+    opacity: 0.6;
+}
+
+
+.order-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.indian-chef{
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.contact, .contact-staff{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#location{
+    text-align: center;
+}
+
+.info{
+    font-size: 1.2rem;
+}
+
+#location-info, #phone-info{
+    line-height: 1.5em;
+}
+
+.res-name, .phone-info{
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.phone-info-order{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#order-info{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.order-label{
+    font-weight: 600;
+}
+
+.order-sheet{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-button{
+    padding: 20px 50px;
+    font-size: 25px;
+    background-color: #fa9820;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    color: white;
+    font-weight: 600;
+}
+
+.submit-button:hover{
+    opacity: 0.6;
+}
