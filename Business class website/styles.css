@@ -173,7 +173,61 @@ th:nth-child(2), td:nth-child(2) {
     width: auto;
 }
 
+#order-button{
+    text-align: center;
+    margin: 50px;
+}
+
+.order-button{
+    padding: 40px 70px;
+    font-size: 25px;
+    background-color: #fa9820;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.order-button:hover{
+    opacity: 0.6;
+}
+
+
+.order-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
 .indian-chef{
  max-width: 800px;
  margin: 0 auto;
 }
+
+.contact, .contact-staff{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#location{
+    text-align: center;
+}
+
+.info{
+    font-size: 1.2rem;
+}
+
+#location-info, #phone-info{
+    line-height: 1.5em;
+}
+
+.res-name, .phone-info{
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.phone-info-order{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
