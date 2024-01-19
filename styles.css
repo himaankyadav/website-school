@@ -8,11 +8,11 @@ body{
 }
 
 .logo{
- height: 60px;
+ height: 80px;
 }
 
 .navbar{
- height: 60px;
+ height: 80px;
  background-color: #fa9820;
  position: fixed;
  top: 0;
@@ -34,22 +34,22 @@ body{
  display: inline-block;
  vertical-align: middle; 
  color: white;
- padding: 6px 15px;
+ padding: 16px 15px;
  text-decoration: none;
  font-size: 1.5rem;
- transition: background-color 0.15s;
+ transition: background-color 0.15s, padding 0.15s;
 }
 
 .navbar1:hover{
  background-color: gray;
+ padding: 16px 20px;
 }
 
 .header-image{
- padding-top: 60px;
+ margin-top: 100px;
  height: 300px;
  width: 100%;
  object-fit: cover;
- margin-top: 20px;
 }
 
 .Main-text{
